@@ -15,6 +15,7 @@
 {
     // put update code here
     [self addObstacle];
+    
 
 }
 
