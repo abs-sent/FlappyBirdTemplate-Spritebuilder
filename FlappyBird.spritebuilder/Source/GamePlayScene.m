@@ -9,6 +9,8 @@
     // your code here
     character = (Character*)[CCBReader load:@"Character"];
     [physicsNode addChild:character];
+    [self addObstacle];
+
 }
 
 -(void)update:(CCTime)delta
@@ -23,7 +25,6 @@
     [character flap];
 }
 
-[self addObstacle];
 
 // declare a method in objective-C
 // -(int) doSomethingWithAString: (NSString*) myString{
