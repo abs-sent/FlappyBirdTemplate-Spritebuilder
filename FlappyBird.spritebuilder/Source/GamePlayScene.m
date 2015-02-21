@@ -14,8 +14,6 @@
 -(void)update:(CCTime)delta
 {
     // put update code here
-    [self addObstacle];
-    
 
 }
 
@@ -24,6 +22,8 @@
     // this will get called every time the player touches the screen
     [character flap];
 }
+
+[self addObstacle];
 
 // declare a method in objective-C
 // -(int) doSomethingWithAString: (NSString*) myString{
