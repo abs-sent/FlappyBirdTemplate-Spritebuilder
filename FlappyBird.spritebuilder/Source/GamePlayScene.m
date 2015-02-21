@@ -17,5 +17,14 @@
 }
 
 // put new methods here
+- (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
+    // this will get called every time the player touches the screen
+    [character flap];
+}
+
+// declare a method in objective-C
+// -(int) doSomethingWithAString: (NSString*) myString{
+// return [myString length] * 10;
+// }
 
 @end
